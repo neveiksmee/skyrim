@@ -1,0 +1,42 @@
+
+p::first-line {
+  color: rgb(109, 78, 43);
+  font-variant: inherit;
+  
+}
+p::first-letter {
+  color: red;
+  font-size: xx-large;
+}
+
+h1::before {
+  content: url(skyrim.jpg) ;
+}
+h1::after {
+  content: url(skyrim.jpg) ;
+}
+body{ 
+  background-color: rgba(223, 199, 169, 0.623);
+}
+ ::selection {
+  color: whitesmoke;
+  background:rgb(109, 78, 43)Z;
+}
+h1,h3 {
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-bottom: 10px;
+}
+  
+p {
+  font-style: oblique;
+  font-size: 20px;
+  margin-left: 700px; margin-right: 45px; margin-bottom: 5px;
+ }
+ @font-face {
+  font-family: Font;
+  src: url(GrenzeGotisch-VariableFont_wght.ttf);
+}
+h1,h3{
+  font-family: Font;
+}
